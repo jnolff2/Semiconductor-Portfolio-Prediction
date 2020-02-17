@@ -1,6 +1,6 @@
 # Stock-Price-Prediction
 
-The goal of our project was to see if we could predict the directional stock price movement of Apple, Amazon, Facebook, Google, and Microsoft using various technical indicators based on past prices.  We used the yfinance library as a way to access the historical stock data from Yahoo! Finance to gather the opening, high, low, and closing prices as well as volume.  We used the time period from January 1, 2014 to November 8, 2019 to train and test our model (our testing data is the most recent 12 months).
+The goal of this project was to see if we could predict the directional stock price movement of Apple, Amazon, Facebook, Google, and Microsoft using various technical indicators based on past prices.  We used the yfinance library as a way to access the historical stock data from Yahoo! Finance to gather the opening, high, low, and closing prices as well as volume.  We used the time period from January 1, 2014 to November 8, 2019 to train and test our model (our testing data is the most recent 12 months).
 
 For our predictions, we decided to test our model's ability to forecast directional price movement for the next day, 5 day, and 20 day periods.  Our project focused on predicting the 5 day directional price movement because that was where our model had the most success.   
 
